@@ -7,7 +7,7 @@ const Header = () => {
     <div className='flex items-center justify-between w-full p-3'>
         <div>
             <Typography size='lg' fw="bold">
-                RCODE CHAT
+                RCODE CHAT 
             </Typography>
         </div>
         <div>
