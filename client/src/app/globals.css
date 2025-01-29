@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(#FFE1E1, #FFAEAE);
+}
+
+.custom_btn {
+  padding: 5px 15px;
+  background-color: #FFA4A4;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow:3px 5px 0px 1px black;
+  transition-duration: 0.2s;
+}
+
+.custom_btn:hover {
+  box-shadow: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  max-width: 40rem;
+  padding: 10px;
+  background-color: #FFAEAE;
+  border-radius: 10px;
+}
+
+.input_field {
+  width: 21rem;
+  padding: 10px;
+  background-color: #FFE2DF;
+  color: #8D5050;
+  border-radius: 10px;
+  outline: none;
+}
